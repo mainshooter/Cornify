@@ -28,6 +28,7 @@ function checkForWord() {
       if (correct == word.length) {
         // Check if we have the lenght of the word
         cornify_add();
+        pressedKeys = [];
       }
     }
 
