@@ -1,5 +1,10 @@
 var pressedKeys = [];
 
+/**
+ * Logs all keypresses
+ * After it logs it runs checkForWord
+ * @param  {[string]} keypress [With the label of the keybord key]
+ */
 function logKeyPress(keypress) {
   keypress = keypress[1];
   pressedKeys.push(keypress);
