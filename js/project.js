@@ -15,7 +15,6 @@ function logKeyPress(keypress) {
 /**
  * check if we have to word cornify
  * If we have we run cornify_add();
- * @return {[type]} [description]
  */
 function checkForWord() {
   var word = stringToArray('cornify');
