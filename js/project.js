@@ -33,6 +33,7 @@ function checkForWord() {
     }
 
     else {
+      // Wrong letter
       correct = 0;
     }
   }
